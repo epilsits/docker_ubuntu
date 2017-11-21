@@ -1,0 +1,4 @@
+set paste
+set bg=dark
+color industry
+syntax enable

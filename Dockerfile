@@ -21,6 +21,8 @@ WORKDIR /home/$user
 # copy some files
 COPY .dircolors .
 COPY .vim ./.vim/
+# own it
+RUN chown -R $user:$group .
 
 # modify .bashrc
 # set TERM

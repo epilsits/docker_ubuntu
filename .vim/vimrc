@@ -1,4 +1,6 @@
 set paste
 set bg=dark
-color industry
 syntax enable
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+colorscheme solarized
